@@ -1,0 +1,23 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+
+:root {
+  /* Typography */
+  --family: 'Epilogue', sans-serif;
+  --fs-sm: 500;
+  --fs-bold: 700;
+  --fs: 18px;
+
+  /* Colors */
+  --color-white: hsl(0, 0%, 98%);
+  --color-gray: hsl(0, 0%, 41%);
+  --color-black: hsl(0, 0%, 8%);
+}
+
+body {
+  margin: 0;
+  font-family: var(--family);
+  font-size: var(--fs);
+  font-weight: var(--fs-sm);
+}
